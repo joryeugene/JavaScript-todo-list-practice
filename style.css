@@ -1,0 +1,89 @@
+html, body {
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+h1 {
+  text-align: center;
+  transition-property: color;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+  transition-delay: .1s;
+}
+
+h1:hover {
+  color: orange;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#toolsLeft {
+  border: 2px solid black;
+  padding: 5px;
+  margin:2px;
+}
+
+#todosRight {
+  border: 2px solid black;
+  min-width:209.3px;
+  margin:2px;
+}
+
+ul {
+  list-style: none;
+}
+
+#addTodoText {
+  width: 90px;
+  text-align: center;
+}
+
+#addTodoText:focus {
+  outline: 0;
+}
+
+#changeTodoPositionInput {
+  width: 26px;
+}
+
+#changeTodoTextInput {
+  width: 53px;
+  text-align: center;
+}
+
+#deleteOrToggleInput {
+  width: 26px;
+}
+
+#smallerWidth button {
+  width: 73px;
+}
+
+button {
+  position: relative;
+  border: 2px black solid;
+  background-color: white;
+  font-weight: bold;
+  margin: 2px;
+  width: 90px;
+}
+
+button:active {
+  top: 2px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #FFCF40;
+}
+
+.deleteButton {
+  width: 50px;
+  font-size: 10px;
+}
