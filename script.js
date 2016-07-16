@@ -1,3 +1,5 @@
+// Jory Pestorious
+
 var todoList = {
  todos: [],
  displayTodos: function() {
