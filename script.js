@@ -21,7 +21,7 @@ var todoList = {
    this.displayTodos();
  },
  toggleCompleted: function(position) {
-   var todo = this.todos[position];
+   var todo = this.todos[position-1];
    todo.completed = !todo.completed;
    this.displayTodos();
  },
